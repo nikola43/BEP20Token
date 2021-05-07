@@ -8,7 +8,7 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
 
-    uint public totalSupply = 10000 * 10 ** 18; // 10000
+    uint public totalSupply = 3100000000 * 10 ** 18; // 10000
     string public name = "MADE TOKENV5";
     string public symbol = "MDTV5";
     uint public decimals = 18;
